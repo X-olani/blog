@@ -1,0 +1,19 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+<div class="article-detail">
+    <div class="">
+        <div class="thumb_container">
+            <img class="thumb_img" src="{{article.thumb.url}}">
+        </div>
+        <div class="articles-header">
+            <h2>{{ article.title }}</h2>
+        </div>
+        <div class="article-text">
+            <p> {{article.body}}</p>
+
+            <p> {{article.date}}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

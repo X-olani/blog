@@ -1,0 +1,158 @@
+body* {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("planst3.jpg");
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.thumb_container {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ffffff08;
+}
+
+.thumb_img {
+    width: 49%;
+    height: -webkit-fill-available;
+}
+
+.wrapper {}
+
+.logo-header {
+    width: 100%;
+    background-color: #f7f8fa;
+}
+
+.logo-center {
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav {
+    display: flex;
+    background-color: #f7f8fa;
+}
+
+ul {
+    list-style: none;
+    color: black;
+    width: 13%;
+    display: flex;
+}
+
+li {
+    margin: 7px;
+}
+
+li a {
+    color: black;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.articles-header {
+    text-align: center;
+    font-size: 35px;
+}
+
+.article {
+    border: 2px solid;
+    width: 20%;
+    height: 184px;
+    background-color: #ffffff38;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2 a {
+    color: white;
+}
+
+.articles-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article-text {
+    font-size: 1.3rem;
+    margin: auto;
+    width: 50%;
+}
+
+.create-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.create-post input,
+label {
+    margin: 5px;
+
+}
+
+.article-create {
+    border: 2px solid #407654;
+    padding: 5px;
+}
+
+.article-by {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+
+/*----------------------*/
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+
+.signup-form input,
+label,
+span {
+    margin: 5px;
+}
+
+.signup-form ul {
+    width: 100%;
+    display: block;
+    color: white;
+    padding: 0;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.login-form input,
+label {
+    margin: 5px;
+}

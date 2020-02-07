@@ -1,0 +1,15 @@
+{% extends 'base_template.html' %}
+
+{% block content %}
+<div>
+
+    <div class="articles-header">
+        <h1>Signup page</h1>
+    </div>
+    <form class="signup-form" action="/accounts/signup/" method="POST">
+        {% csrf_token %}
+        {{form}}
+        <input type="submit" value='Signup'>
+    </form>
+</div>
+{% endblock %}
